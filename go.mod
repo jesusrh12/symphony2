@@ -10,7 +10,7 @@ require (
 	contrib.go.opencensus.io/integrations/ocsql v0.1.7
 	github.com/360EntSecGroup-Skylar/excelize/v2 v2.3.1
 	github.com/99designs/gqlgen v0.13.0
-	github.com/AlekSi/pointer v1.1.0
+	github.com/AlekSi/pointer v1.2.0
 	github.com/DATA-DOG/go-sqlmock v1.5.0
 	github.com/HdrHistogram/hdrhistogram-go v1.0.1 // indirect
 	github.com/Masterminds/squirrel v1.5.0
@@ -48,7 +48,6 @@ require (
 	github.com/uber/jaeger-lib v2.4.0+incompatible // indirect
 	github.com/uber/tchannel-go v1.20.1 // indirect
 	github.com/vektah/gqlparser/v2 v2.1.0
-	github.com/vektra/mockery v1.1.2 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.1.0
 	github.com/xuri/efp v0.0.0-20201016154823-031c29024257 // indirect
 	go.opencensus.io v0.22.5
