@@ -1022,7 +1022,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.0", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.14.8", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.0", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.0", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.0", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.12.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
@@ -1228,8 +1228,8 @@
 "@fbcnms/auth@file:@fbcnms/auth":
   version "0.1.2"
   dependencies:
-    "@fbcnms/express-middleware" "file:../../../../Library/Caches/Yarn/v6/npm-@fbcnms-auth-0.1.2-e1962115-f150-4e0e-92ae-1d9a2ebed766-1635135397447/node_modules/@fbcnms/express-middleware"
-    "@fbcnms/sequelize-models" "file:../../../../Library/Caches/Yarn/v6/npm-@fbcnms-auth-0.1.2-e1962115-f150-4e0e-92ae-1d9a2ebed766-1635135397447/node_modules/@fbcnms/sequelize-models"
+    "@fbcnms/express-middleware" "file:@fbcnms/express-middleware"
+    "@fbcnms/sequelize-models" "file:@fbcnms/sequelize-models"
     "@fbcnms/webpack-config" "^0.1.0"
     email-validator "^2.0.4"
     openid-client "2.4.5"
@@ -1243,7 +1243,7 @@
   version "0.1.1"
   dependencies:
     "@fbcnms/logging" "^0.1.0"
-    "@fbcnms/sequelize-models" "file:../../../../Library/Caches/Yarn/v6/npm-@fbcnms-express-middleware-0.1.1-0090da52-ae93-4881-94de-c330549ab4ef-1635135397551/node_modules/@fbcnms/sequelize-models"
+    "@fbcnms/sequelize-models" "file:@fbcnms/sequelize-models"
     body-parser "^1.18.3"
     compression "^1.7.1"
     cookie-parser "^1.4.3"
@@ -1275,12 +1275,12 @@
 "@fbcnms/platform-server@file:@fbcnms/platform-server":
   version "0.1.25"
   dependencies:
-    "@fbcnms/auth" "file:../../../../Library/Caches/Yarn/v6/npm-@fbcnms-platform-server-0.1.25-bb7a9deb-973d-4fd6-9f28-f94b0935d01e-1635135397589/node_modules/@fbcnms/auth"
+    "@fbcnms/auth" "file:@fbcnms/auth"
     "@fbcnms/babel-register" "^0.1.0"
-    "@fbcnms/express-middleware" "file:../../../../Library/Caches/Yarn/v6/npm-@fbcnms-platform-server-0.1.25-bb7a9deb-973d-4fd6-9f28-f94b0935d01e-1635135397589/node_modules/@fbcnms/express-middleware"
+    "@fbcnms/express-middleware" "file:@fbcnms/express-middleware"
     "@fbcnms/logging" "^0.1.0"
     "@fbcnms/magma-api" "^0.1.0"
-    "@fbcnms/sequelize-models" "file:../../../../Library/Caches/Yarn/v6/npm-@fbcnms-platform-server-0.1.25-bb7a9deb-973d-4fd6-9f28-f94b0935d01e-1635135397589/node_modules/@fbcnms/sequelize-models"
+    "@fbcnms/sequelize-models" "file:@fbcnms/sequelize-models"
     "@fbcnms/types" "^0.1.10"
     "@fbcnms/util" "^0.1.0"
     add "^2.0.6"
@@ -1305,7 +1305,7 @@
     url "^0.11.0"
     yarn "^1.12.3"
 
-"@fbcnms/projects@file:@fbcnms/projects":
+"@fbcnms/projects@file:@fbcnms/projects", "@fbcnms/types@file:@fbcnms/projects":
   version "0.1.1"
 
 "@fbcnms/relay@^0.2.0":
@@ -1332,9 +1332,6 @@
   version "0.1.11"
   resolved "https://registry.yarnpkg.com/@fbcnms/types/-/types-0.1.11.tgz#11b6d53fffccd26925fbfa64d9a308db6beafdfb"
   integrity sha512-fcSBUZpanxECQcqEiMa91ZktkP9tIkINmyTp0TcUCXyFbdkwu3aOxxXTR6cBD43YKvX885J5Oc7N+MPeZjTVgw==
-
-"@fbcnms/types@file:@fbcnms/projects":
-  version "0.1.1"
 
 "@fbcnms/ui@^0.1.4":
   version "0.1.7"
@@ -1713,19 +1710,12 @@
     react-is "^16.8.0 || ^17.0.0"
     react-transition-group "^4.4.0"
 
-"@material-ui/icons@^4.0.0":
-  version "4.11.2"
-  resolved "https://registry.yarnpkg.com/@material-ui/icons/-/icons-4.11.2.tgz#b3a7353266519cd743b6461ae9fdfcb1b25eb4c5"
-  integrity sha512-fQNsKX2TxBmqIGJCSi3tGTO/gZ+eJgWmMJkgDiOfyNaunNaxcklJQFaFogYcFl0qFuaEz1qaXYXboa/bUXVSOQ==
+"@material-ui/icons@^4.0.0", "@material-ui/icons@^4.11.3":
+  version "4.11.3"
+  resolved "https://registry.yarnpkg.com/@material-ui/icons/-/icons-4.11.3.tgz#b0693709f9b161ce9ccde276a770d968484ecff1"
+  integrity sha512-IKHlyx6LDh8n19vzwH5RtHIOHl9Tu90aAAxcbWME6kp4dmvODM3UvOHJeMIDzUbd4muuJKHmlNoBN+mDY4XkBA==
   dependencies:
     "@babel/runtime" "^7.4.4"
-
-"@material-ui/icons@^5.0.0-alpha.37":
-  version "5.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@material-ui/icons/-/icons-5.0.0-beta.5.tgz#54295b9aa120910c88900e3d08082b7acbeb73c0"
-  integrity sha512-C2KHSf8mvDn22rzsV0UfsJyBYI3Nt/LItcKPJBAG9kgqdBHAuLMH2lfKmdMuX55qd8O+NO5rM7aIHdYQRjfcMQ==
-  dependencies:
-    "@babel/runtime" "^7.14.8"
 
 "@material-ui/lab@^4.0.0-alpha.30":
   version "4.0.0-alpha.57"
