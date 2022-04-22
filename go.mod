@@ -46,26 +46,22 @@ require (
 	github.com/uber-go/tally v3.3.17+incompatible // indirect
 	github.com/uber/jaeger-client-go v2.25.0+incompatible
 	github.com/uber/jaeger-lib v2.4.0+incompatible // indirect
-	github.com/uber/tchannel-go v1.20.1 // indirect
 	github.com/vektah/gqlparser/v2 v2.1.0
-	github.com/vektra/mockery v1.1.2 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.1.0
 	github.com/xuri/efp v0.0.0-20201016154823-031c29024257 // indirect
 	go.opencensus.io v0.22.5
 	go.uber.org/cadence v0.15.0
-	go.uber.org/yarpc v1.49.1
+	go.uber.org/yarpc v1.60.0
 	go.uber.org/zap v1.16.0
 	gocloud.dev v0.21.0
 	gocloud.dev/pubsub/natspubsub v0.21.0
 	golang.org/x/crypto v0.0.0-20201208171446-5f87f3452ae9 // indirect
 	golang.org/x/lint v0.0.0-20201208152925-83fdc39ff7b5 // indirect
-	golang.org/x/net v0.0.0-20201209123823-ac852fbbde11
+	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4
 	golang.org/x/oauth2 v0.0.0-20201208152858-08078c50e5b5 // indirect
-	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
-	golang.org/x/sys v0.0.0-20201207223542-d4d67f95c62d // indirect
+	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/text v0.3.4
 	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324 // indirect
-	golang.org/x/tools v0.0.0-20201208233053-a543418bbed2 // indirect
 	google.golang.org/genproto v0.0.0-20201209185603-f92720507ed4 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	honnef.co/go/tools v0.0.1-2020.1.6 // indirect
