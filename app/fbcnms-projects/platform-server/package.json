@@ -21,7 +21,7 @@
     "@opencensus/propagation-b3": "^0.0.22",
     "dotenv": "^6.0.0",
     "graphql": "^15.0.0",
-    "graphql-request": "^3.3.0",
+    "graphql-request": "^5.0.0",
     "http-proxy-middleware": "^0.21.0"
   },
   "devDependencies": {
