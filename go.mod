@@ -42,16 +42,15 @@ require (
 	github.com/scylladb/go-set v1.0.2
 	github.com/shurcooL/graphql v0.0.0-20200928012149-18c5c3165e3a
 	github.com/sirupsen/logrus v1.7.0 // indirect
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.8.1
 	github.com/uber-go/tally v3.3.17+incompatible // indirect
 	github.com/uber/jaeger-client-go v2.25.0+incompatible
 	github.com/uber/jaeger-lib v2.4.0+incompatible // indirect
 	github.com/uber/tchannel-go v1.20.1 // indirect
 	github.com/vektah/gqlparser/v2 v2.1.0
-	github.com/vektra/mockery v1.1.2 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.1.0
 	github.com/xuri/efp v0.0.0-20201016154823-031c29024257 // indirect
-	go.opencensus.io v0.22.5
+	go.opencensus.io v0.24.0
 	go.uber.org/cadence v0.15.0
 	go.uber.org/yarpc v1.49.1
 	go.uber.org/zap v1.16.0
