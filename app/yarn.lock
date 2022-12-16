@@ -1228,8 +1228,8 @@
 "@fbcnms/auth@file:@fbcnms/auth":
   version "0.1.2"
   dependencies:
-    "@fbcnms/express-middleware" "file:../../../../Library/Caches/Yarn/v6/npm-@fbcnms-auth-0.1.2-e1962115-f150-4e0e-92ae-1d9a2ebed766-1635135397447/node_modules/@fbcnms/express-middleware"
-    "@fbcnms/sequelize-models" "file:../../../../Library/Caches/Yarn/v6/npm-@fbcnms-auth-0.1.2-e1962115-f150-4e0e-92ae-1d9a2ebed766-1635135397447/node_modules/@fbcnms/sequelize-models"
+    "@fbcnms/express-middleware" "file:@fbcnms/express-middleware"
+    "@fbcnms/sequelize-models" "file:@fbcnms/sequelize-models"
     "@fbcnms/webpack-config" "^0.1.0"
     email-validator "^2.0.4"
     openid-client "2.4.5"
@@ -1243,7 +1243,7 @@
   version "0.1.1"
   dependencies:
     "@fbcnms/logging" "^0.1.0"
-    "@fbcnms/sequelize-models" "file:../../../../Library/Caches/Yarn/v6/npm-@fbcnms-express-middleware-0.1.1-0090da52-ae93-4881-94de-c330549ab4ef-1635135397551/node_modules/@fbcnms/sequelize-models"
+    "@fbcnms/sequelize-models" "file:@fbcnms/sequelize-models"
     body-parser "^1.18.3"
     compression "^1.7.1"
     cookie-parser "^1.4.3"
@@ -1275,12 +1275,12 @@
 "@fbcnms/platform-server@file:@fbcnms/platform-server":
   version "0.1.25"
   dependencies:
-    "@fbcnms/auth" "file:../../../../Library/Caches/Yarn/v6/npm-@fbcnms-platform-server-0.1.25-bb7a9deb-973d-4fd6-9f28-f94b0935d01e-1635135397589/node_modules/@fbcnms/auth"
+    "@fbcnms/auth" "file:@fbcnms/auth"
     "@fbcnms/babel-register" "^0.1.0"
-    "@fbcnms/express-middleware" "file:../../../../Library/Caches/Yarn/v6/npm-@fbcnms-platform-server-0.1.25-bb7a9deb-973d-4fd6-9f28-f94b0935d01e-1635135397589/node_modules/@fbcnms/express-middleware"
+    "@fbcnms/express-middleware" "file:@fbcnms/express-middleware"
     "@fbcnms/logging" "^0.1.0"
     "@fbcnms/magma-api" "^0.1.0"
-    "@fbcnms/sequelize-models" "file:../../../../Library/Caches/Yarn/v6/npm-@fbcnms-platform-server-0.1.25-bb7a9deb-973d-4fd6-9f28-f94b0935d01e-1635135397589/node_modules/@fbcnms/sequelize-models"
+    "@fbcnms/sequelize-models" "file:@fbcnms/sequelize-models"
     "@fbcnms/types" "^0.1.10"
     "@fbcnms/util" "^0.1.0"
     add "^2.0.6"
@@ -1635,6 +1635,11 @@
     "@types/node" "*"
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
+
+"@kurkle/color@^0.3.0":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@kurkle/color/-/color-0.3.1.tgz#ef72bc8022ccf77cdd2715097f062ee591ec145c"
+  integrity sha512-hW0GwZj06z/ZFUW2Espl7toVDjghJN+EKqyXzPSV8NV89d5BYp5rRMBJoc+aUN0x5OXDMeRQHazejr2Xmqj2tw==
 
 "@mapbox/geojson-area@0.2.2":
   version "0.2.2"
@@ -5270,28 +5275,12 @@ chardet@^0.7.0:
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
-chart.js@^2.7.3:
-  version "2.9.4"
-  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-2.9.4.tgz#0827f9563faffb2dc5c06562f8eb10337d5b9684"
-  integrity sha512-B07aAzxcrikjAPyV+01j7BmOpxtQETxTSlQ26BEYJ+3iUkbNKaOJ/nDbT6JjyqYxseM0ON12COHYdU2cTIjC7A==
+chart.js@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-4.1.0.tgz#171af17142afdb5d43859676f8aad4751b70024c"
+  integrity sha512-Xta4vonV3e1pwFGLTyUMqXk2aH03D6253DSt52pdS7247u2SpIpQb6kCewxNgx1JfeLBUnjaxHYbHpOv6w78Og==
   dependencies:
-    chartjs-color "^2.1.0"
-    moment "^2.10.2"
-
-chartjs-color-string@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/chartjs-color-string/-/chartjs-color-string-0.6.0.tgz#1df096621c0e70720a64f4135ea171d051402f71"
-  integrity sha512-TIB5OKn1hPJvO7JcteW4WY/63v6KwEdt6udfnDE9iCAZgy+V4SrbSxoIbTw/xkUIapjEI4ExGtD0+6D3KyFd7A==
-  dependencies:
-    color-name "^1.0.0"
-
-chartjs-color@^2.1.0:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/chartjs-color/-/chartjs-color-2.4.1.tgz#6118bba202fe1ea79dd7f7c0f9da93467296c3b0"
-  integrity sha512-haqOg1+Yebys/Ts/9bLo/BqUcONQOdr/hoEr2LLTRl6C5LXctUdHxsCYfvQVg5JIxITrfCNUDr4ntqmQk9+/0w==
-  dependencies:
-    chartjs-color-string "^0.6.0"
-    color-convert "^1.9.3"
+    "@kurkle/color" "^0.3.0"
 
 check-types@^8.0.3:
   version "8.0.3"
@@ -5544,7 +5533,7 @@ collection-visit@^1.0.0:
     map-visit "^1.0.0"
     object-visit "^1.0.0"
 
-color-convert@^1.9.0, color-convert@^1.9.1, color-convert@^1.9.3:
+color-convert@^1.9.0, color-convert@^1.9.1:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
   integrity sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==
@@ -11979,7 +11968,7 @@ moment-timezone@^0.5.33:
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.10.2, moment@^2.24.0:
+"moment@>= 2.9.0", moment@^2.24.0:
   version "2.29.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
   integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
